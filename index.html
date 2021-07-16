@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Profile card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- 7% -330px 1050px 520px -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+    *{
+      font-family: 'Kumbh Sans', sans-serif;
+    }
+    body{
+      background:url(/images/bg-pattern-top.svg) left -330px no-repeat, url(/images/bg-pattern-bottom.svg) right 520px no-repeat;
+      background-color: hsl(185, 75%, 39%);
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+
+    .cx{
+      background-color: #fff;
+      width: 350px;
+      height: 350px;
+      position: relative;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    ul{
+      list-style: none;
+      display: flex;
+      padding: 0;
+      text-align: center;
+      justify-content: space-evenly;
+      border-top: 1px solid #cecece;
+      margin: 20px;
+      margin-top: -05px;
+    }
+
+    
+    .ft{
+        border: 5px solid #fff;
+        border-radius: 50%;
+        overflow: hidden;
+        width: 95px;
+        height: 95px;
+        position: absolute;
+        right: 120px;
+        top: 80px;
+    }
+
+    .ni{
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 30px;
+      margin-left: 75px;
+      margin-right: 70px;
+    }
+
+    .ci{
+      display: flex;
+      justify-content: center;
+      margin-top: -27px;
+    }
+
+    h4{
+      color: #888888;
+    }
+
+   .vddb{
+     color: hsl(229, 23%, 23%);
+   }
+
+
+    span{
+     color: hsl(185, 75%, 39%);
+    }
+
+    .dc{
+      color: #888888;
+    }
+
+    
+  </style>
+</head>
+<body >
+  
+  <div class="cx">
+    <div>
+      <img src="images/bg-pattern-card.svg" alt="">
+    </div>
+    <div class="ft">
+      <img src="images/image-victor.jpg" alt="">
+    </div>
+    <div class="ni">
+        <h2>Victor Crest</h2>
+        <h2 class="dc">24</h2>
+    </div>
+    <div class="ci">
+      <h4>London</h4>
+    </div>
+    <ul class="vddb">
+      <li>
+        <h3>80k</h3>
+        <span>Folowers</span>
+      </li>
+      <li>
+        <h3>803k</h3>
+        <span>Likes</spam>
+      </li>
+      <li>
+        <h3>1.4k</h3>
+        <span>Photos</span>
+      </li>
+    </ul>
+  </div>
+  
+</body>
+</html>
+
+
